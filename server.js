@@ -44,7 +44,7 @@ function printReport(taskArr, standups) {
         taskArr.filter(task => task.standupId === standup.id).forEach(task => console.log(task.id + ' ' + task.stamp + ' ' + task.standupId));
         console.log("\n")
     })
-    taskArr.forEach(task => console.log(task.id + ' ' + task.stamp + ' ' + task.standupId));
+    // taskArr.forEach(task => console.log(task.id + ' ' + task.stamp + ' ' + task.standupId));
 }
 
 const crons = {};
